@@ -7,9 +7,27 @@ const Headers = styled.header`
     background-color: #ff0000;
 `;
 
+const Logo = styled.nav``;
+
+const Navigation = styled.nav``;
+
+const Rotas = styled.ul``;
+
+const Rota = styled.li``;
+
 const Header = () => {
 	return(
-		<Headers></Headers>
+		<Headers>
+			<Logo></Logo>
+			<Navigation>
+				<Rotas>
+					<Rota>Lanches</Rota>
+					<Rota>Pizzas</Rota>
+					<Rota>Esfihas</Rota>
+					<Rota>Bebidas</Rota>       
+				</Rotas>
+			</Navigation>
+		</Headers>
 	);
 };
 
